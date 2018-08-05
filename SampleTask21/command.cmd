@@ -1,0 +1,1 @@
+﻿cf run-task SampleTask21 "dotnet SampleTask21.dll "Sample" "data"" --name execute-sample-task

@@ -1,0 +1,8 @@
+---
+applications:
+- name: SampleTask21
+memory: 512M
+instances: 1
+no-route: true
+buildpack: https://github.com/cloudfoundry/dotnet-core-buildpack.git
+command: dotnet SampleTask21.dll
